@@ -1,14 +1,22 @@
-const soccerPlayers = require('./players');
+const crypto = require('crypto');
 
-const { players } = soccerPlayers;
+// Temp data
+// const soccerPlayers = require('./players');
+// const { players } = soccerPlayers;
+
+// Models
+const Player = require('../models/player');
 
 module.exports = {
-    player: ({id}) => players.find(player => player.id == id),
-    players: ({country}) => {
-        switch (country) {
-           case 'FRANCE': return players.filter(player => player.country == 'France')
-           case 'SPAIN': return players.filter(player => player.country == 'Spain')
-           default: return players
-        }
+    player: ({id}) => Player.findById(id),
+    players: ({country}) => Player.find({ country }),
+    createPlayer: ({ input }) => {
+        return Player.create(input);
+    },
+    updatePlayer: ({ id, input }) => {
+        return Player.findByIdAndUpdate(id, input, { new: true });
+    },
+    removePlayer: ({ id }) => {
+        return Player.deleteOne({ _id: id }).then(() => id);
     }
 }

@@ -1,0 +1,42 @@
+# ============ Types
+
+type Player {
+        id: ID!,
+        name: String!,
+        age: Int!,
+        country: String!,
+        club: String!,
+        position: String!
+}
+
+# ============ Enums
+
+enum Country {
+    FRANCE
+    SPAIN
+}
+
+# ============ Queries
+
+type Query {
+    player(id: ID!): Player!
+    players(country: Country): [Player]!
+}
+
+# ============ Entry data
+
+input PlayerInput {
+    name: String!
+    age: Int!
+    country: String!
+    club: String!
+    position: String!
+}
+
+# ============ Mutations
+
+type Mutation {
+    createPlayer(input: PlayerInput!): Player
+    updatePlayer(id: ID!, input: PlayerInput!): Player
+    deletePlayer(id: ID!): ID
+}

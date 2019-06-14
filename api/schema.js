@@ -1,22 +1,8 @@
+const path = require('path');
+const fs = require('fs');
+
 const { buildSchema } = require('graphql');
 
-module.exports = buildSchema(`
-    type Player {
-        id: ID!,
-        name: String!,
-        age: Int!,
-        country: String!,
-        club: String!,
-        position: String!
-    }
+const schema = fs.readFileSync(path.resolve(__dirname, 'schema.gql'), 'utf-8');
 
-    enum Country {
-        FRANCE
-        SPAIN
-    }
-
-    type Query {
-        player(id: ID!): Player!
-        players(country: Country): [Player]!
-    }
-`);
+module.exports = buildSchema(schema);
