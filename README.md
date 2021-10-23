@@ -1,7 +1,5 @@
 # GraphQLServer
 
-API
-
 > Node.js
 
 > Express
@@ -9,3 +7,8 @@ API
 > GraphQL
 
 > MongoDB
+
+## Useful elements
+
+- [ ] MongoDB connection
+- [ ] Work with gql files

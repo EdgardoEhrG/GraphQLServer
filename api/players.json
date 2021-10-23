@@ -1,16 +1,100 @@
 {
-    "players": [
-        { "id": 1, "name": "Hugo Lloris", "age": 32, "country": "France", "club": "Tottenham Hotspur", "position": "Goalkeeper" },
-        { "id": 2, "name": "Samuel Umtiti", "age": 25, "country": "France", "club": "Barcelona", "position": "Centre-back" },
-        { "id": 3, "name": "Paul Pogba", "age": 26, "country": "France", "club": "Manchester United", "position": "Midfielder" },
-        { "id": 4, "name": "Antoine Griezmann", "age": 28, "country": "France", "club": "Atlético Madrid", "position": "Forward" },
-        { "id": 5, "name": "Thomas Lemar", "age": 23, "country": "France", "club": "Atlético Madrid", "position": "Midfielder" },
-        { "id": 6, "name": "Olivier Giroud", "age": 32, "country": "France", "club": "Chelsea", "position": "Striker" },
-        { "id": 7, "name": "Kylian Mbappé", "age": 20, "country": "France", "club": "Paris Saint-Germain", "position": "Forward" },
-        { "id": 8, "name": "Jan Oblak", "age": 26, "country": "Slovenia", "club": "Atlético Madrid", "position": "Goalkeeper" },
-        { "id": 9, "name": "Rodri", "age": 22, "country": "Spain", "club": "Atlético Madrid", "position": "Midfielder" },
-        { "id": 10, "name": "Diego Costa", "age": 30, "country": "Brazil", "club": "Atlético Madrid", "position": "Striker" },
-        { "id": 11, "name": "Šime Vrsaljko", "age": 27, "country": "Croatia", "club": "Inter Milan", "position": "Right-back" },
-        { "id": 12, "name": "Gareth Bale", "age": 29, "country": "Wales", "club": "Real Madrid", "position": "Winger" }
-    ]
+  "players": [
+    {
+      "id": 1,
+      "name": "Hugo Lloris",
+      "age": 32,
+      "country": "France",
+      "club": "Tottenham Hotspur",
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 2,
+      "name": "Samuel Umtiti",
+      "age": 25,
+      "country": "France",
+      "club": "Barcelona",
+      "position": "Centre-back"
+    },
+    {
+      "id": 3,
+      "name": "Paul Pogba",
+      "age": 26,
+      "country": "France",
+      "club": "Manchester United",
+      "position": "Midfielder"
+    },
+    {
+      "id": 4,
+      "name": "Antoine Griezmann",
+      "age": 28,
+      "country": "France",
+      "club": "Atlético Madrid",
+      "position": "Forward"
+    },
+    {
+      "id": 5,
+      "name": "Thomas Lemar",
+      "age": 23,
+      "country": "France",
+      "club": "Atlético Madrid",
+      "position": "Midfielder"
+    },
+    {
+      "id": 6,
+      "name": "Olivier Giroud",
+      "age": 32,
+      "country": "France",
+      "club": "Chelsea",
+      "position": "Striker"
+    },
+    {
+      "id": 7,
+      "name": "Kylian Mbappé",
+      "age": 20,
+      "country": "France",
+      "club": "Paris Saint-Germain",
+      "position": "Forward"
+    },
+    {
+      "id": 8,
+      "name": "Jan Oblak",
+      "age": 26,
+      "country": "Slovenia",
+      "club": "Atlético Madrid",
+      "position": "Goalkeeper"
+    },
+    {
+      "id": 9,
+      "name": "Rodri",
+      "age": 22,
+      "country": "Spain",
+      "club": "Atlético Madrid",
+      "position": "Midfielder"
+    },
+    {
+      "id": 10,
+      "name": "Diego Costa",
+      "age": 30,
+      "country": "Brazil",
+      "club": "Atlético Madrid",
+      "position": "Striker"
+    },
+    {
+      "id": 11,
+      "name": "Šime Vrsaljko",
+      "age": 27,
+      "country": "Croatia",
+      "club": "Inter Milan",
+      "position": "Right-back"
+    },
+    {
+      "id": 12,
+      "name": "Gareth Bale",
+      "age": 29,
+      "country": "Wales",
+      "club": "Real Madrid",
+      "position": "Winger"
+    }
+  ]
 }
